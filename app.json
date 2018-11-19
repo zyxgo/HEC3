@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "HEC",
+    "icon": "./assets/web_hi_res_512.png",
+    "version": "1.0.0",
+    "description": "",    
+    "sdkVersion": "27.0.0",
+    "slug": "hec",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "loading": {
+      "hideExponentText": false
+    },
+    "packagerOpts": {
+      "assetExts": [
+        "ttf"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "com.mmto.hec"
+    },
+    "android": {
+      "package": "com.mmto.hec"
+    },
+    "androidStatusBarColor": "#334393",
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#334393"
+    },
+    "splash": {
+      "image": "./assets/HEC_splash2.png",
+      "backgroundColor": "#ffffff"
+    }
+  }
+}
