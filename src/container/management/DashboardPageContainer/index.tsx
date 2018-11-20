@@ -11,6 +11,7 @@ import { Form,
 	Label,
 	Input,
 	Button,
+	Separator,
 } from "native-base";
 import { db } from "../../../firebase";
 import * as db1 from "../../../firebase/firebase";
@@ -125,6 +126,7 @@ export default class DashboardPageContainer extends React.Component<Props, State
 										onChangeText={e => items.sahamOnChange(e)}
 									/>
 								</Item>
+								<Separator></Separator>
 								<Button block onPress={() => this._handleInputForm()}>
 									<Text>Simpan</Text>
 								</Button>

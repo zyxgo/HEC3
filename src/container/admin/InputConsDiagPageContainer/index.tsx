@@ -23,7 +23,7 @@ export default class InputConsDiagPageContainer extends React.Component<Props, S
 	hargaDiagInput: any;
 
 	_handleInputDiag() {
-		console.log(this.props);
+		// console.log(this.props.navigation);
 		const { namaDiag, hargaDiag, daftarDiag } = this.props.inputConsDiagStore;
 		if (this.props.navigation.state.params.action === "new") {
 			db.doInputConsDiag( namaDiag, hargaDiag );
